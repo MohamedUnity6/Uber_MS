@@ -40,7 +40,7 @@ namespace UberMS.Repositorires.Implementations
 
             return result.Role == "Driver";
         }
-
+        // hello
         public async Task<bool> IsRider(int id)
         {
             var result = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
