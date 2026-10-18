@@ -1,0 +1,6 @@
+@UberMS_HostAddress = http://localhost:5263
+
+GET {{UberMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
